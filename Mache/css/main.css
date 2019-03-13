@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "LatoWeb";
+}
+
+.head {
+    background: url("../img/Prostokąt\ 1\ kopia\ 3.png") no-repeat;
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.title {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Proxima Nova";
+}
+.title > span {
+    color: #ed145b;
+}
+.comt {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation,.nav-ul {
+    display: flex;
+    
+}
+.link {
+    color: white;
+    font-family: "LatoWebBold";
+    text-decoration: none;
+    margin: 0 5px;
+}
+.link:hover {
+    transition: color 0.1s ease-in ;
+    color: #ed145b;
+}
+li {
+    list-style-type: none;
+}
+.head-title {
+    font-size: 46px;
+    font-family: "LatoWebLight";
+    color:#fff;
+    text-align: center;
+    margin-top: 200px;
+}
+.head-title > span {
+    font-family: "LatoWebBold";
+}
+.line {
+    color: #ed145b;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.paragraph {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+.paragraph > span {
+    font-family: "LatoWebLight";
+    font-size: 22px;
+    margin: 10px 0;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.show-more {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family: "LatoWebBold";
+    text-decoration: none;
+    padding: 20px 50px;
+    background: #ed145b;
+    border-radius: 30px;
+    display: inline-block; 
+}
+
+.about {
+    background: #f4f4f4;
+    overflow: hidden;
+}
+.about > .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.ab-title {
+    font-family: "LatoWebLight";
+    font-size: 38px;
+    font-style: italic;
+    color: #5a5a5a;
+    margin-top: 150px;
+}
+.line2 {
+    color: #ed145b;
+    width: 200px;
+    margin-top: 40px;
+}
+.description {
+    font-size: 15px;
+    font-family: "LatoWebLight";
+    color: #808080;
+    word-spacing: 5px;
+    margin: 50px 0;
+}
+.video {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    font-family: "LatoWeb";
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ed145b;
+}
+.video > img {
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
+.macbook {
+    position: relative;
+    right:149px ;
+    top: 107px;
+    width: 900px;
+}
+.services {
+    background: #fff;
+}
+.ser-title {
+    text-align: center;
+    font-style: italic;
+    color: #5a5a5a;
+    font-size: 38px;
+    font-family: "LatoWebLight";
+    margin-top: 155px;
+}
+.services > .container > .line2 {
+    margin: 40px auto;
+}
+.desc2 {
+    text-align: center;
+    font-size: 15px;
+    color: #5a5a5a;
+    word-spacing: 5px;
+}
+.services-sell {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 117px;
+}
+.name {
+    text-align: center;
+    color: #ed145b;
+    margin-top: 30px;
+}
+.thing > img {
+    display: block;
+    margin: 0 auto;
+}
+.quote {
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 25px;
+    margin: 150px 0;
+}
+.quote > span {
+    text-align: center;
+    color: #ed145b;
+    font-size: 158px;
+    font-family: "DroidSerif";
+}
+.slider {
+    background: url("../img/Prostokąt\ 1\ kopia\ 3.png") no-repeat;
+}
+.arrow2 {
+    transform: rotate(180deg);
+    position: relative;
+    left: 1400px;
+    bottom: 208px;
+}
+.arrow1 {
+    position: relative;
+    left: 180px;
+    top: 208px ;
+}
+.prices {
+    background: #f4f4f4;
+    padding-top: 155px;
+    padding-bottom: 94px;
+}
+.price-title {
+    text-align: center;
+    font-style: italic;
+    color: #5a5a5a;
+    font-size: 38px;
+    font-family: "LatoWebLight";
+}
+.prices > .container > .line2 {
+    margin: 40px auto;
+}
+.flex-prices {
+    margin-top: 94px;
+    display: flex;
+    justify-content:space-between;
+}
+.cost-div {
+    padding: 36px 95px;
+    background: #5a5a5a;
+    transition: 0.5s all linear;
+
+}
+.price-div {
+    margin: 0 15px;
+    background: #fff;
+}
+.cost {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.cost > span {
+    font-size: 20px;
+}
+.cost-div > span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.name-offer {
+    position: relative;;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 18px 55px;
+    background: #f4f4f4;
+    color: #5a5a5a;
+    text-align: center;
+    display: inline;
+    left: 34px;
+    bottom: 10px;
+    border-radius: 40px;
+}
+.offer {
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 15px 0;
+}
+.buy-now {
+    color:#fff;
+    background: #ed145b;
+    padding: 20px 63px;
+    border-radius: 40px;
+    margin: 34px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.offer1 {
+    margin-top: 44px;
+}
+.grid-system {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 100px 0px;
+}
+.tool-title {
+    color: #ed145b;
+    font-size: 15px;
+    margin-bottom: 31px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.tool-script {
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: lighter;
+    display: block;
+    margin-left: 70px;
+}
+.tool-div {
+    margin: 50px 30px;
+}
+.icon {
+    float: left;
+}
+.join-us {
+    background: #ed145b;
+}
+.join-us > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.j-title {
+    color: #fff;
+    font-size: 49px;
+    font-family: "LatoWebLight";
+    display: inline-block;
+    margin: 82px 0px;
+}
+.join-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ed145b;
+    font-size: 15px;
+    font-family: "LatoWebBold";
+    background: #fff;
+    padding: 20px 72px;
+    border-radius: 30px;
+    margin: 82px 0px;
+}
+.updates {
+    padding-top: 156px;
+}
+.updates > .container .line2 {
+    margin: 40px auto;
+}
+.grid-images {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 94px;
+}
+.update {
+    margin: 30px;
+}
+.update-title {
+    font-size: 15px;
+    color: #5a5a5a;
+    margin-bottom: 30px;
+}
+.content {
+    background: #f4f4f4;
+    padding: 21px;
+    width: 96%;
+    position: relative;
+    bottom: 5px;
+}
+.update-script {
+    color: #5a5a5a;
+    font-family: "LatoWebLight";
+    font-size: 15px;
+}
+.show-more1 {
+    color: #ed145b;
+    font-size: 15px;
+    text-decoration: none;
+}
+.link-div {
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 63px;
+}
+.pre-footer {
+    background: url("../img/Prostokąt\ 1\ kopia\ 8.png") no-repeat;
+    padding-top: 143px;
+    padding-bottom: 150px;
+}
+.pre-footer-title {
+    text-align: center;
+    color: #fff;
+    font-family: "LatoWebLight";
+    font-style: italic;
+    font-size: 38px;
+}
+.pre-footer > .container > .line2 {
+    margin: 40px auto;
+}
+.pre-footer-script {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: "LatoWebLight";
+}
+.download > .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.safari {
+    width: 548px;
+    height: 416px;
+}
+.download {
+    background: #f4f4f4;
+    padding: 77px 0;
+}
+.download-title {
+    color: #5a5a5a;
+    font-size: 38px;
+    font-family: "LatoWebLight";
+    font-style: italic;
+}
+.download-script {
+    font-size: 15px;
+    font-family: "LatoWebLight";
+    color: #5a5a5a;
+    margin-top: 50px;
+}
+.download > .container > .safari-script > .block {
+    justify-content: flex-start;
+}
+footer {
+    background: #2b2b2b;
+    padding: 65px 0px;
+}
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer > .container > h3 {
+    color: #fff;
+    font-size: 16px;
+}
+#over {
+    padding: 36px 95px;
+    background: #ed145b;
+    transition: 0.5s all linear;
+
+}
