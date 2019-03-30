@@ -1,0 +1,11 @@
+@font-face {
+    src: url(../fonts/BalooChettan-Regular.ttf);
+    font-family: 'Baloo Chettan';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: 'Montserrat';
+    font-weight: normal;
+}

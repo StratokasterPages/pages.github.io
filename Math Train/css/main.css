@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0f149b;
+}
+#gamefield {
+    background-color: #0f149b;
+    font-family: Arial;
+    height: 100%;
+    margin-top: 300px;
+}
+
+#task {
+    font-size: 40px;
+    color:  #0d9614;
+    text-align: center;
+    display:inline-block;
+    font-family: 'Baloo Chettan';
+}
+
+#answer {
+    padding: 10px;
+    font-size: 40px;
+    color: #f97b04;
+    background-color: #0d9614;
+    width: 40px;
+}
+
+.wrap-game {
+    text-align: center;
+}
+
+.answer-button {
+    margin: 0 auto;
+    font-size: 40px;
+    background-color: #3ace37;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 45px;
+    border-radius: 10px;
+}
+
+.div-123 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #answer {
+        width: 100px;
+    }
+
+    #gamefield {
+        margin-top: 200px;
+    }
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.rightAnswers {
+    color: #24d636;
+}
+
+.wrongAnswers {
+    color: #e50612;
+}
+
+.lastScore {
+    color: #dbdb0d;
+}
+
+.rightAnswers,.wrongAnswers,.lastScore,.nowScore {
+    font-family: 'Montserrat';    
+}
